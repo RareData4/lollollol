@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta https-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Drift Hunters</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="app/css/style.css" />
+    
+    <style>
+        .dropdown:hover .dropdown-menu{
+        display: block;
+        }
+    </style>
+    
+</head>
+
+<body>
+
+    
+
+    <!-- Menu Fixed Topbar -->
+
+    <!-- <div class="bg"></div> -->
+
+    <nav id="top" class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="?page=home"><img id="logo" src="app/images/Dlogo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="?page=home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="?page=drift">Drift <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="?page=touge">Touge <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link text-white" href="?page=about">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Wheels and Tires
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="?page=wheels">JDM Wheels</a>
+                      <a class="dropdown-item" href="?page=staggered">Staggered Wheels</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="?page=stretched">Stretched Tires</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+      </nav>
+
+    <!-- End of Menu Topbar -->
+
+    <!-- Headder Section -->
+
+    <div id="jumb" class="jumbotron jumbotron-fluid bg-dark">
+        <div class="container text-center">
+            <h1 class="display-5 text-danger"><strong>Welcome to Drift Hunters</strong></h1>
+            <p class="lead text-white"><strong>Drift Hunters aims to teach you everything you need to know about Japan's Car Culture.</strong></p>
+        </div>
+    </div>
+
+    <!-- End Headder -->
+
+    <!-- Main Content -->
+
+<div class="jumbotron jumbotron-fluid bg-transparent">
+
+    <!-- NEW CARD STYLE -->
+
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-4">
+            <div class="card bg-transparent border-dark">
+                <img class="card-img-top" src="app/images/jp-car-culture.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">An Introduction To Japanese Car Culture</h4>
+                    <p class="card-text">Why is car culture in Japan so awesome? And why do you need to experience it in person to 'get it'?
+                    </p>
+                    <a href="?page=intro" class="btn btn-outline-dark">See More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-transparent border-dark">
+                <img class="card-img-top" src="app/images/ebisu.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">Things You Need To Know About Ebisu Circuit</h4>
+                    <p class="card-text">If you know anything about drifting then there’s no doubt you’ve heard of Ebisu Circuit before. But what is it exactly? Is it a race track? Is it a theme park? Is it a zoo? Try all of the above, and much more…
+                    </p>
+                    <a href="?page=ebisu" class="btn btn-outline-dark">See More</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-transparent border-dark">
+                <img class="card-img-top" src="app/images/travel-tips.jpg">
+                <div class="card-body">
+                    <h4 class="card-title">The Most Important Japan Travel Tip</h4>
+                    <p class="card-text">What’s the key to having an amazing car-related holiday in Japan?
+                    </p>
+                    <a href="?page=travel" class="btn btn-outline-dark">See More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<!-- END OF CARD STYLE -->
+
+
+
+<!-- End of Main Content -->
+
+    
+
+    <footer class="page-footer font-small bg-secondary bg-dark mt-5 text-center py-2">
+        <h1 class="text-white">You can contact us here:</h1>
+        <hr class="light">
+        <p>
+          <a class="text-white" href="mailto:huntingfordrifts@gmail.com">HuntingForDrifts@gmail.com</a>
+        </p>
+        <div class="footer-copyright text-white text-center py-3">Copyright © 2020 Drift Hunters - All rights reserved.
+        </div>
+    </footer>
+
+   
+
+    <script src="app/JS/myScript.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+</html>
